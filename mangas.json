@@ -1,0 +1,1782 @@
+[
+ {
+   "Título": "¡No te Rindas Nakamura!",
+   "Imagen": "img/imagen.svg",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788418222160.00",
+   "Precio": 12.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "¡Soy una Araña! ¿y qué? 02",
+   "Imagen": "img/imagen 1.svg",
+   "Editorial": "Editorial Kamite",
+   "Codigo de barras": "7500588017382.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "¡Soy una Araña! ¿y qué? 03",
+   "Imagen": "img/imagen 2.svg",
+   "Editorial": "Editorial Kamite",
+   "Codigo de barras": "7500588018099.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "A Silent Voice 02",
+   "Imagen": "img/imagen 3.svg",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075481173.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Alice in Bordeland 01",
+   "Imagen": "img/imagen 4.svg",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418963605.00",
+   "Precio": 17.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Alice in Bordeland 03",
+   "Imagen": "img/imagen 5.svg",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788419185150.00",
+   "Precio": 17.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "All you Need is Kill 01",
+   "Imagen": "img/imagen 6.svg",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075280264.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Anohana 02 ",
+   "Imagen": "img/imagen 7.svg",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788416905515.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Anohana 03 ",
+   "Imagen": "img/imagen 8.svg",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788416905645.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Another 0 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788417490461.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Ao No Flag 01 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075685380.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Ao No Flag 02 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075686226.00",
+   "Precio": 10.5,
+   "En inventario": 2
+ },
+ {
+   "Título": "Aoha Raido 03 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786079718831.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Ataque a los Titanes 01 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467960921.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Ataque a los Titanes 02 ",
+   "Editorial": " Norma Editorial",
+   "Codigo de barras": "9788467960938.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Ataque de los Titanes 03 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075280905.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Ataque de los Titanes 10 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075282039.00",
+   "Precio": 9.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Ataque de los Titanes 11 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075282138.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Ataque de los Titanes 15 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075282718.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Ataque de los Titanes 17 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075282947.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Ataque de los Titanes 19 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075283159.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Ataque de los Titanes 28 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076342084.00",
+   "Precio": 9.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Bakemonogatari 05 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076349182.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Bakemonogatari 06 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075683430.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Berserk 05 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075280776.00",
+   "Precio": 9.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Berserk 41 ",
+   "Editorial": "Edición Especial",
+   "Codigo de barras": "7503041492092.00",
+   "Precio": 24.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Berserk Maximun 01 ",
+   "Editorial": "Panini Manga España",
+   "Codigo de barras": "9788411015035.00",
+   "Precio": 21.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Berserk Maximun 02 ",
+   "Editorial": "Panini Manga España",
+   "Codigo de barras": "9788411016964.00",
+   "Precio": 21.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Blue Lock 12 ",
+   "Editorial": "Planeta Comic",
+   "Codigo de barras": "9788411402491.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Blue Period 01 ",
+   "Editorial": "Edición en Japonés",
+   "Codigo de barras": "9784065105863.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Blue Period 02 ",
+   "Editorial": "Edición en Japonés",
+   "Codigo de barras": "9784065111246.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Boruto, Naruto Next Generation 09 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075687858.00",
+   "Precio": 10.5,
+   "En inventario": 2
+ },
+ {
+   "Título": "Boruto, Naruto Next Generation 10 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075688640.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Calendario My Hero Academia ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "7503046185326.00",
+   "Precio": 17.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Calendario Sakamoto Days ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "7503046185340.00",
+   "Precio": 17.95,
+   "En inventario": 3
+ },
+ {
+   "Título": "Calendario Spy x Family ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "7503046185333.00",
+   "Precio": 17.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Chainsaw Man 04 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467944174.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Chainsaw Man 13 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075780924.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Chainsaw Man 15 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467965346.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Children of the Whales 04 ",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788417373146.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Children of the Whales 22 ",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788419914125.00",
+   "Precio": 12.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Claymore 03 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076347027.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Claymore 04 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076347218.00",
+   "Precio": 10.5,
+   "En inventario": 2
+ },
+ {
+   "Título": "Claymore 06 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076347812.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Claymore 07 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076347829.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Claymore 08 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076348420.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Claymore 09 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076348437.00",
+   "Precio": 10.5,
+   "En inventario": 3
+ },
+ {
+   "Título": "Claymore 10 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075684390.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Claymore 21 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076363478.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Darling in the Franxx 05 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418963995.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Death Note 03 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467917260.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Death Note 05 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467917284.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Death Note 06 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467917291.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Death Note 07 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467917307.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Death Note 08 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467917314.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Death Note 09 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467917321.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Death Note 10 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467917338.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Death Note 12 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467917352.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Demon Slayer 04 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467963748.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Domar a la Bestia 02 ",
+   "Editorial": "Arechi Manga",
+   "Codigo de barras": "9788419986009.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Dorohedoro 02 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075687032.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Dorohedoro 03 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075687872.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Dorohedoro 04 ",
+   "Editorial": "Ecc Ediciones",
+   "Codigo de barras": "9788417441081.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Dorohedoro 04 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075688657.00",
+   "Precio": 10.5,
+   "En inventario": 2
+ },
+ {
+   "Título": "Dorohedoro 05 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075689449.00",
+   "Precio": 10.95,
+   "En inventario": 3
+ },
+ {
+   "Título": "Dorohedoro 06 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075689838.00",
+   "Precio": 10.95,
+   "En inventario": 3
+ },
+ {
+   "Título": "Dr. Stone 04 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076344408.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "El Bosque de las Liebres 01",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788419914378.00",
+   "Precio": 12.95,
+   "En inventario": 3
+ },
+ {
+   "Título": "El Canto de la Noche 01 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076369395.00",
+   "Precio": 12.5,
+   "En inventario": 2
+ },
+ {
+   "Título": "El Demonio y la Serpiente",
+   "Editorial": "Arechi Manga",
+   "Codigo de barras": "9788419296986.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "El Gran Maestro de la Cultivación, E. E. ",
+   "Editorial": "Norma Editorial ",
+   "Codigo de barras": "9788467966725.00",
+   "Precio": 28.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "El Gran Maestro de la Cultivación, T. R. ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467966718.00",
+   "Precio": 19.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "El Jardín de las Palabras ",
+   "Editorial": "Editorial Kamite",
+   "Codigo de barras": "7500588016576.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "El Misterio Phohibido de Ron Kamonohashi ",
+   "Editorial": "Panini Manga Es",
+   "Codigo de barras": "9788411014120.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "El Ocaso de la Luna 01 ",
+   "Editorial": "Milky Way EWdiciones",
+   "Codigo de barras": "9788419195821.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "El Ocaso de la Luna 02 ",
+   "Editorial": "Milky Way EWdiciones",
+   "Codigo de barras": "9788419536082.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "El Ocaso de la Luna 03 ",
+   "Editorial": "Milky Way EWdiciones",
+   "Codigo de barras": "9788419536426.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "El Ocaso de la Luna 04 ",
+   "Editorial": "Milky Way EWdiciones",
+   "Codigo de barras": "9788419536617.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "El Perfume del Rey",
+   "Editorial": "Croosboks Editorial",
+   "Codigo de barras": "9788408275961.00",
+   "Precio": 24.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Fairy Tail 100 Years Quest 07",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075688510.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Fullmetal Alchemist 04 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788498148893.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Fullmetal Alchemist 06 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788498471809.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Given 01 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076349359.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Given 02 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076349366.00",
+   "Precio": 10.5,
+   "En inventario": 3
+ },
+ {
+   "Título": "Given 03 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075682310.00",
+   "Precio": 10.5,
+   "En inventario": 3
+ },
+ {
+   "Título": "Given 04 ",
+   "Editorial": " Milky Way Ediciones",
+   "Codigo de barras": "9788417820800.00",
+   "Precio": 12.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Given 04 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075683904.00",
+   "Precio": 10.5,
+   "En inventario": 3
+ },
+ {
+   "Título": "Given 05 ",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788418222108.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Given 07 ",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788419195517.00",
+   "Precio": 12.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Given 07 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786078360330.00",
+   "Precio": 12.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Given 08 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786079368763.00",
+   "Precio": 12.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Given 09 ",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788419914668.00",
+   "Precio": 12.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Goblin Slayer 02 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418061462.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Goblin Slayer 03 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418172052.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Goblin Slayer 04 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418172274.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Goblin Slayer 06 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418172878.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Grandmaster of Demonic Cultivation 01 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467960099.00",
+   "Precio": 18.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Grandmaster of Demonic Cultivation 04 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467960099.00",
+   "Precio": 17.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Haikyu 01 ",
+   "Editorial": "Planeta Comic",
+   "Codigo de barras": "9788413426259.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Haikyu 02 ",
+   "Editorial": "Planeta Comic",
+   "Codigo de barras": "9788413426563.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Haikyu 03 ",
+   "Editorial": "Planeta Comic",
+   "Codigo de barras": "9788413426549.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Hanako Kun 07 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075686714.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Hanako Kun 08 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075687384.00",
+   "Precio": 10.5,
+   "En inventario": 2
+ },
+ {
+   "Título": "Hanako Kun 01 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075683461.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Hanako Kun 09 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075687742.00",
+   "Precio": 10.5,
+   "En inventario": 2
+ },
+ {
+   "Título": "Hanako Kun 11 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075689333.00",
+   "Precio": 10.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Hanako Kun, el fantasma del lavabo 01 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418645228.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Hanako Kun, el fantasma del lavabo 03 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418751110.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Hanako Kun, El Fantasma del Lavabo 00 ",
+   "Editorial": "Ivrea España",
+   "Codigo de barras": "9788419185631.00",
+   "Precio": 11.95,
+   "En inventario": 3
+ },
+ {
+   "Título": "Heaven Oficial Blessing, Vol. 3 ",
+   "Editorial": "Edición en Chino",
+   "Codigo de barras": "9787521755497.00",
+   "Precio": 15.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Heaven Official Blessing, vol.4 ",
+   "Editorial": "Edición en chino",
+   "Codigo de barras": "9787521755503.00",
+   "Precio": 15.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Hell's Paradice 08 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076361405.00",
+   "Precio": 10.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Hell's Paradise 04 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075688084.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Hellsing 03 ",
+   "Editorial": "Editorial Kamite",
+   "Codigo de barras": "7503018244082.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Hellsing 06 ",
+   "Editorial": "Editorial Kamite",
+   "Codigo de barras": "7503018244082.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Hyperventilation ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467961690.00",
+   "Precio": 17.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Indigno de ser humano num. 01 de 3 (Segunda edición) ",
+   "Editorial": "Ecc Ediciones",
+   "Codigo de barras": "9788417960674.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Indigno de ser humano núm. 02 (de 3) (Segunda edición)",
+   "Editorial": "Ecc Ediciones",
+   "Codigo de barras": "9788418026966.00",
+   "Precio": 12.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Indigno de ser humano núm. 03 de 3 (Segunda edición)",
+   "Editorial": "Ecc Ediciones",
+   "Codigo de barras": "9788418043796.00",
+   "Precio": 12.95,
+   "En inventario": 3
+ },
+ {
+   "Título": "Inoue Takehiko, Illustration ",
+   "Editorial": "Edición en Japonés",
+   "Codigo de barras": "9784087824087.00",
+   "Precio": 39.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Jagaaan 11 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075685434.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Jojo's Bizarre Adventure: Stell Ball Run 02 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076369319.00",
+   "Precio": 14.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Jojo's Bizarre Adventure: Stell Ball Run 03 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075780474.00",
+   "Precio": 14.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Jojo's Bizarre Adventure: Stell Ball Run 04 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075781167.00",
+   "Precio": 14.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Jojo's Bizzarre Adventure Parte 7: Steel Ball Run 03",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9788419185204.00",
+   "Precio": 14.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Joy 2 ",
+   "Editorial": "Distrito Manga Mx",
+   "Codigo de barras": "9786073825405.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Jujutsu Kaisen 04 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467961140.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Jujutsu Kaisen 06 ",
+   "Editorial": " Norma Editorial",
+   "Codigo de barras": "9788467944204.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Jujutsu Kaisen 09 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467945904.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Jujutsu Kaisen 12 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467947694.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Jujutsu Kaisen 13 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467947700.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Jujutsu Kaisen 14 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467947711.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Jujutsu Kaisen 15 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467949872.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Jujutsu Kaisen 19",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076363225.00",
+   "Precio": 10.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Kaguya Sama: Love is War 16 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788419383518.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Killing Stalking 02, 2nd Season ",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788417820923.00",
+   "Precio": 15.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Konosuba ¡Bendice este Maravilloso Mundo! 01 ",
+   "Editorial": " Editorial Kamite",
+   "Codigo de barras": "7503018261201.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "La Bendición del Oficial del Cielo, Vol.1 Edición Especial ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467966749.00",
+   "Precio": 28.95,
+   "En inventario": 3
+ },
+ {
+   "Título": "La Chica que saltaba a través del tiempo ",
+   "Editorial": "Planeta Cómic",
+   "Codigo de barras": "9788416543564.00",
+   "Precio": 13.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "La empalagosa dieta del amor ",
+   "Editorial": "Odaiba Ediciones",
+   "Codigo de barras": "9788412296723.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "La pequeña forastera: Siúil, a Rún núm. 01",
+   "Editorial": "Ecc Ediciones",
+   "Codigo de barras": "9788416090600.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "La pequeña forastera: Siúil, a Rún núm. 02",
+   "Editorial": "Ecc Ediciones",
+   "Codigo de barras": "9788418120091.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "La pequeña forastera: Siúil, a Rún núm. 03",
+   "Editorial": "Ecc Ediciones",
+   "Codigo de barras": "9788417441579.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "La princesa y el rey de las bestias 02",
+   "Editorial": "E",
+   "Codigo de barras": "9788419760586.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Las Flores del Mal 02 ",
+   "Editorial": "Editorial Kamite",
+   "Codigo de barras": "7500588016331.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Las Flores del Mal 03 ",
+   "Editorial": "Editorial Kamite",
+   "Codigo de barras": "7500588016378.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Las Quintillizas 14 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075689258.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Los Diarios de la Boticaria 01 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075785677.00",
+   "Precio": 14.95,
+   "En inventario": 3
+ },
+ {
+   "Título": "Los Diarios de la Boticaria 02 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075786506.00",
+   "Precio": 14.95,
+   "En inventario": 4
+ },
+ {
+   "Título": "Magi 01 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075284125.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Me dijiste para siempre ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418751554.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Megumi y Tsugumi 02",
+   "Editorial": "Arechi Manga",
+   "Codigo de barras": "9788418776915.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Megumi y Tsugumi 03",
+   "Editorial": "Arechi Manga",
+   "Codigo de barras": "9788418776922.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Mi Estrella más Brillante 01 ",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788418222191.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Mi Estrella más Brillante 04 ",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788418222832.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Mi Estrella más Brillante 05 ",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788418788574.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Mi Estrella más Brillante 06 ",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788419195029.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Mi Prometido Yakuza 01 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467958980.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Mi Prometido Yakuza 02 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467958997.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Moriarty el Patriota 03 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467934694.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Moriarty el Patriota 04 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788417820589.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Moriarty el Patriota 05 ",
+   "Editorial": " Norma Editorial",
+   "Codigo de barras": "9788467937961.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Moriarty el Patriota 06 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467937978.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "My Dress Up Darling 08 (Edición Especial) ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "7503041492023.00",
+   "Precio": 11.95,
+   "En inventario": 5
+ },
+ {
+   "Título": "My Hero Academia 29 ",
+   "Editorial": " Panini Manga",
+   "Codigo de barras": "9786075685427.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "My Hero Academia 30 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075687407.00",
+   "Precio": 9.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "My Hero Academia 31 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075689319.00",
+   "Precio": 10.5,
+   "En inventario": 2
+ },
+ {
+   "Título": "Naruto, Secretos: Escrituras de la Lucha ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075687087.00",
+   "Precio": 14.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Noragami 23 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075684185.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "One Piece 02 ",
+   "Editorial": "Planeta Comic España",
+   "Codigo de barras": "9788468471532.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "One Piece 05 ",
+   "Editorial": "Planeta Comic",
+   "Codigo de barras": "9788468471563.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "One Piece 06 ",
+   "Editorial": "Planeta Comic",
+   "Codigo de barras": "9788468471570.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "One Piece 95 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076368855.00",
+   "Precio": 10.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "One Piece: Color Walk 2 ",
+   "Editorial": "Edición en Japonés",
+   "Codigo de barras": "9784088593760.00",
+   "Precio": 29.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Orange 04 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075286037.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Orange 05 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075286785.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Oshi no Ko 01 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788419185143.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Oshi no Ko 02 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788467963748.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Oshi no Ko 03 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788419306807.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Oshi no Ko 04 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788419451743.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Pandora Hearts 02 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075684611.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Perfect World 02 ",
+   "Editorial": "Ecc Ediciones",
+   "Codigo de barras": "9788417644949.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Prison School 01 ",
+   "Editorial": "Kamite Manga",
+   "Codigo de barras": "7503018255873.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Puedo Oír el Sol 01 ",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788494600272.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Record of Ragnarok 01 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075785608.00",
+   "Precio": 12.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Reigen, Nivel 131 de espiritismo ",
+   "Editorial": "Ivréa Editorial",
+   "Codigo de barras": "9788418172106.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Reverse",
+   "Editorial": "Arechi Manga",
+   "Codigo de barras": "9788419296771.00",
+   "Precio": 11.95,
+   "En inventario": 3
+ },
+ {
+   "Título": "Rooster Fighter 02 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076360132.00",
+   "Precio": 10.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Ruroni Kenshin 19 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076368121.00",
+   "Precio": 15.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Saint Seiya Next Dimension 01 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788492725816.00",
+   "Precio": 15.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Saint Seiya Next Dimension 03 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788415366393.00",
+   "Precio": 15.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Sankarea 02 ",
+   "Editorial": "Editorial Kamite",
+   "Codigo de barras": "7503018257815.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Sasaki y Miyano 02 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076366356.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Seraph of the end 01 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075287119.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Shadow House 04 ",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788418222726.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Sherlock: El Banquero Ciego ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075286198.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Shumatsu no Valkyrie 08 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418963056.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Shumatsu no Valkyrie 09 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418963582.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Solanin 02 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075687667.00",
+   "Precio": 10.5,
+   "En inventario": 2
+ },
+ {
+   "Título": "Solo Leveling 02 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467945867.00",
+   "Precio": 19.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Solo Leveling 05 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467950151.00",
+   "Precio": 19.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Solo Leveling 06 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467960471.00",
+   "Precio": 19.95,
+   "En inventario": 3
+ },
+ {
+   "Título": "Solo Leveling 07 ",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467965292.00",
+   "Precio": 19.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Spy x Family 01 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418271236.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Spy x Family 01 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075682778.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Spy x Family 02 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418271717.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Spy x Family 02 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075683119.00",
+   "Precio": 10.5,
+   "En inventario": 2
+ },
+ {
+   "Título": "Spy x Family 04 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418450976.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Spy x Family 06 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075688206.00",
+   "Precio": 10.5,
+   "En inventario": 3
+ },
+ {
+   "Título": "Spy x Family 08 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076360651.00",
+   "Precio": 10.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Spy x Family 09 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076361702.00",
+   "Precio": 10.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Sword Art Online: Aincraid 01 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9781401242954.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Ten Count 02 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788417292485.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Ten Count 03 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788417356149.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Ten Count 04 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788417356767.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Ten Count 05 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788417490508.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Ten Count 06 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788417537296.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "The Guy She Was Interested is a boy 01 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075789040.00",
+   "Precio": 14.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "The Promised Neverland 02 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076340615.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "The Promised Neverland 03 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076341988.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "The Promised Neverland 07 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076348017.00",
+   "Precio": 9.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "The Promised Neverland 08 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076349250.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "The Promised Neverland 09 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075680675.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "The Promised Neverland 15 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075687568.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "The Rising of the Shield Hero 02 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418172526.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "The Rising of the Shield Hero 03 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418172861.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "The Seven Deadly Sins 32 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "7503027942801.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "To Your Eternity 04",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786076349236.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Toilet Bound Hanako Kun 0",
+   "Editorial": "Edición en Japonés",
+   "Codigo de barras": "9788418751141.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Tokyo Ghoul 04",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075281735.00",
+   "Precio": 9.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Tokyo Ghoul: Re 06",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075480053.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Tokyo Ghoul: Re 08",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467925364.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Tokyo Revengers 02",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9784065100332.00",
+   "Precio": 10.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Tokyo Revengers 01",
+   "Editorial": "Edición en Japonés",
+   "Codigo de barras": "9784063959383.00",
+   "Precio": 10.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Tokyo Revengers 01 ",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075689036.00",
+   "Precio": 10.95,
+   "En inventario": 3
+ },
+ {
+   "Título": "Tokyo Revengers 02",
+   "Editorial": "Edición en Japonés",
+   "Codigo de barras": "9784065101889.00",
+   "Precio": 10.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Total Eclipse of the Eternal Heart",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788418222498.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Tower of God 02",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075689623.00",
+   "Precio": 14.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Twin Star Exorcist, Onmyoji 03",
+   "Editorial": " Norma Editorial",
+   "Codigo de barras": "9788467925432.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Un Extraño a la Orilla del Mar",
+   "Editorial": "Milky Way Ediciones",
+   "Codigo de barras": "9788416960415.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Vagabond 03",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788415922964.00",
+   "Precio": 12.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Vinland Saga 03",
+   "Editorial": "Planeta Cómic",
+   "Codigo de barras": "9788416090464.00",
+   "Precio": 19.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Vinland Saga 04 ",
+   "Editorial": "Planeta Cómic",
+   "Codigo de barras": "9788416090600.00",
+   "Precio": 19.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Vinland Saga 27",
+   "Editorial": "Kurokawa (Edición Francesa)",
+   "Codigo de barras": "9782380714333.00",
+   "Precio": 29.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Wotakoi 10",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075685168.00",
+   "Precio": 10.5,
+   "En inventario": 1
+ },
+ {
+   "Título": "Yakuza amo de casa 02 ",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418271205.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Yakuza amo de casa 03",
+   "Editorial": "Ivréa España",
+   "Codigo de barras": "9788418271632.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Yona, Princesa del Amanecer 02",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467929959.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Yona, Princesa del Amanecer 03",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467929966.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Yona, Princesa del Amanecer 04 + Portavaso",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467929973.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ },
+ {
+   "Título": "Yona, Princesa del Amanecer 05",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467931068.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Yona, Princesa del Amanecer 30",
+   "Editorial": "Norma Editorial",
+   "Codigo de barras": "9788467943740.00",
+   "Precio": 11.95,
+   "En inventario": 1
+ },
+ {
+   "Título": "Your Name 02",
+   "Editorial": "Panini Manga",
+   "Codigo de barras": "9786075287546.00",
+   "Precio": 11.95,
+   "En inventario": 2
+ }
+]

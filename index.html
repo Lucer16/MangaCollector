@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <title>Manga Collector | Boticaria Style</title>
+    <style>
+        body { font-family: 'Outfit', sans-serif; scroll-behavior: smooth; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+        .kawaii-shadow { box-shadow: 6px 6px 0px #0F5F5F; }
+        .card-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgba(15, 95, 95, 0.1); }
+        .glass { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(12px); }
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #1B8A8F; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-[#FFF5F8] text-[#111111]">
+
+    <div class="bg-[#0F5F5F] text-[#FFD54A] py-2.5 px-4 text-center text-xs md:text-sm font-bold tracking-wider">
+        🌸 PRÓXIMA PARADA: <span class="text-white uppercase">MedMarket</span> • ENVIAMOS A TODO PANAMÁ 🇵🇦
+    </div>
+
+    <nav class="sticky top-0 z-50 glass border-b border-[#0F5F5F]/10 px-6 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3 group cursor-pointer">
+                <div class="bg-[#FFD54A] p-2 rounded-2xl group-hover:rotate-12 transition-transform duration-300 border-2 border-[#0F5F5F]">
+                    <span class="text-2xl">🌿</span>
+                </div>
+                <div>
+                    <h1 class="font-serif text-xl md:text-2xl font-black text-[#0F5F5F] leading-none">Manga<span class="text-[#1B8A8F]">Collector</span></h1>
+                    <span class="text-[10px] uppercase tracking-[0.2em] font-bold text-[#1B8A8F]">Boticaria Selection</span>
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-4 md:gap-8">
+                <div class="hidden lg:flex gap-8 font-bold text-sm text-[#0F5F5F] uppercase tracking-widest">
+                    <a href="index.html" class="hover:text-[#1B8A8F] transition-colors">Inicio</a>
+                    <a href="tienda.html" class="hover:text-[#1B8A8F] transition-colors">Catálogo</a>
+                    <a href="#contacto" class="hover:text-[#1B8A8F] transition-colors">Horarios</a>
+                </div>
+                <button onclick="toggleCart()" class="bg-[#0F5F5F] text-white p-3 rounded-2xl relative shadow-lg hover:scale-105 transition-all">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M16 11V7a4 4 0 118 0v4M5 9h14l1 12H4L5 9z" stroke-width="2" stroke-linecap="round"/></svg>
+                    <span id="cart-count" class="absolute -top-2 -right-2 bg-[#FFD54A] text-[#0F5F5F] text-[10px] font-black h-6 w-6 flex items-center justify-center rounded-full border-2 border-[#0F5F5F]">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative py-16 px-6 overflow-hidden">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center gap-12">
+            <div class="lg:w-1/2 z-10">
+                <div class="inline-block bg-[#1B8A8F]/10 text-[#1B8A8F] px-4 py-1 rounded-full text-xs font-bold mb-4">✨ WEB OFICIAL</div>
+                <h2 class="text-6xl lg:text-8xl font-serif text-[#0F5F5F] leading-[0.9] mb-8">Lectura que <br><span class="text-[#1B8A8F] italic">sana el alma.</span></h2>
+                <p class="text-lg text-gray-600 mb-10 max-w-md font-medium leading-relaxed">
+                    Curaduría de tomos especiales, preventas y tesoros literarios inspirados en la elegancia de la boticaria.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#catalogo" class="bg-[#0F5F5F] text-white px-10 py-4 rounded-2xl font-bold kawaii-shadow hover:translate-y-1 transition-all">Explorar Colección</a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 relative">
+                <div class="absolute -z-10 bg-[#FFD54A] w-72 h-72 rounded-full blur-[100px] opacity-30 top-10 right-10"></div>
+                <img src="https://images.placeholders.dev/?width=600&height=500&text=Maomao+Aesthetic&bg=0F5F5F" class="rounded-[4rem] border-4 border-white shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500">
+            </div>
+        </div>
+    </header>
+
+    <main id="catalogo" class="container mx-auto px-6 py-24">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
+            <div>
+                <span class="text-[#1B8A8F] font-black tracking-widest text-xs uppercase">Estantes Recientes</span>
+                <h3 class="text-4xl font-serif text-[#0F5F5F] mt-2">Nuevas Adquisiciones</h3>
+            </div>
+            <div class="h-[2px] flex-grow bg-[#0F5F5F]/10 mx-8 hidden md:block"></div>
+        </div>
+        
+        <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
+            </div>
+    </main>
+
+    <div id="cart-modal" class="fixed inset-0 bg-[#0F5F5F]/40 backdrop-blur-sm z-[100] hidden flex justify-end">
+        <div class="bg-white w-full max-w-md h-full shadow-2xl flex flex-col border-l-4 border-[#0F5F5F]">
+            <div class="p-8 border-b border-gray-100 flex justify-between items-center bg-[#FFF5F8]">
+                <div>
+                    <h3 class="text-2xl font-black text-[#0F5F5F]">Tu Pedido</h3>
+                    <p class="text-xs font-bold text-[#1B8A8F]">Cesta de la Boticaria</p>
+                </div>
+                <button onclick="toggleCart()" class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-200 transition-colors text-2xl font-bold">&times;</button>
+            </div>
+            
+            <div id="cart-items" class="flex-grow overflow-y-auto p-8 space-y-6 custom-scrollbar">
+                </div>
+
+            <div class="p-8 bg-gray-50 border-t-2 border-dashed border-gray-200">
+                <div class="space-y-4 mb-8">
+                    <div>
+                        <label class="block text-xs font-black text-[#0F5F5F] uppercase mb-2 tracking-widest">Método de Entrega</label>
+                        <select id="delivery-method" onchange="updateDeliveryFields()" class="w-full p-4 border-2 border-[#0F5F5F]/20 rounded-2xl font-bold bg-white focus:border-[#1B8A8F] outline-none">
+                            <option value="presencial">Recogida: MedMarket (Paitilla)</option>
+                            <option value="biblioteca">Recogida: Biblioteca Universitaria UP</option>
+                            <option value="albrook">Recogida: Albrook Mall</option>
+                            <option value="envio">Envío a Domicilio / Sucursal</option>
+                        </select>
+                    </div>
+
+                    <div id="extra-fields" class="hidden space-y-4 animate-fadeIn">
+                        <input type="text" id="agencia" placeholder="Agencia (Uno Express, Chavale...)" class="w-full p-4 border-2 border-gray-200 rounded-2xl font-medium focus:border-[#1B8A8F] outline-none">
+                        <input type="text" id="sucursal" placeholder="Sucursal o Ciudad de destino" class="w-full p-4 border-2 border-gray-200 rounded-2xl font-medium focus:border-[#1B8A8F] outline-none">
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-center mb-6 px-2">
+                    <span class="font-bold text-gray-500 uppercase text-xs">Subtotal</span>
+                    <span id="cart-total" class="text-2xl font-black text-[#0F5F5F]">$0.00</span>
+                </div>
+
+                <button onclick="sendWhatsApp()" class="w-full bg-[#25D366] text-white py-5 rounded-[2rem] font-black text-lg shadow-xl hover:scale-[1.02] active:scale-95 transition-all flex items-center justify-center gap-3">
+                    Confirmar Pedido 🟢
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contacto" class="bg-[#0F5F5F] text-white py-24 px-6">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div class="md:col-span-2">
+                <h4 class="text-4xl font-serif mb-6 text-[#FFD54A]">Manga Collection</h4>
+                <p class="max-w-sm opacity-70 leading-relaxed font-medium">
+                    Especialistas en traer las mejores ediciones de manga a Panamá, con un toque de cuidado y elegancia boticaria.
+                </p>
+                <p class="mt-10 text-[#1B8A8F] font-bold">Hecho con amor por Wecreate</p>
+            </div>
+            <div>
+                <h5 class="text-[#FFD54A] font-black uppercase text-xs tracking-widest mb-6">Horarios de Atención</h5>
+                <ul class="space-y-3 opacity-80 text-sm font-bold">
+                    <li>LUN - VIE: 10:00 AM - 7:00 PM</li>
+                    <li>SÁBADO: 11:00 AM - 5:00 PM</li>
+                    <li class="text-[#1B8A8F]">DOMINGO: CERRADO (Lectura)</li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-[#FFD54A] font-black uppercase text-xs tracking-widest mb-6">Contacto Directo</h5>
+                <ul class="space-y-3 opacity-80 text-sm font-bold">
+                    <li>📞 +507 0000-0000</li>
+                    <li>📍 MedMarket, Panamá City</li>
+                    <li>📸 @mangacollection.pa</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 1. Base de datos con todos los campos necesarios
+const productos = [
+    { id: 1, nombre: "Los Secretos de la Boticaria 01", editorial: "Ivrea España", precio: 15.00, cantidad: 5, barras: "9788418222160", img: "https://images.placeholders.dev/?width=300&height=400&text=Kusuriya+01&bg=0F5F5F" },
+    { id: 2, nombre: "Chainsaw Man 12", editorial: "Panini Manga", precio: 12.00, cantidad: 0, barras: "9786075780924", img: "https://images.placeholders.dev/?width=300&height=400&text=CSM+12&bg=FFD54A" },
+    { id: 3, nombre: "Oshi No Ko 01", editorial: "Ivrea España", precio: 14.50, cantidad: 10, barras: "9788419185143", img: "https://images.placeholders.dev/?width=300&height=400&text=OshiNoKo&bg=1B8A8F" },
+    { id: 4, nombre: "Spy x Family 10", editorial: "Panini Manga", precio: 13.00, cantidad: 3, barras: "9786075688206", img: "https://images.placeholders.dev/?width=300&height=400&text=SpyFamily&bg=FCE7F3" }
+];
+
+let carrito = [];
+
+// 2. Renderizado de productos (UNA SOLA VERSIÓN)
+function renderProducts(lista = productos) {
+    const container = document.getElementById('product-grid');
+    if (!container) return;
+
+    container.innerHTML = lista.map(p => {
+        const sinStock = p.cantidad <= 0;
+        return `
+            <div class="group bg-white border border-[#0F5F5F]/10 p-5 rounded-[2.5rem] card-hover transition-all duration-300">
+                <div class="relative overflow-hidden rounded-[1.5rem] mb-4 aspect-[3/4]">
+                    <img src="${p.img}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+                    <div class="absolute top-3 left-3 bg-[#0F5F5F] text-white text-[10px] font-black px-3 py-1 rounded-full uppercase tracking-tighter shadow-xl">
+                        Ed. ${p.editorial}
+                    </div>
+                    ${sinStock ? '<div class="absolute inset-0 bg-black/40 flex items-center justify-center font-bold text-white uppercase backdrop-blur-[2px]">Agotado</div>' : ''}
+                </div>
+                <div class="px-2">
+                    <h4 class="font-bold text-lg text-[#0F5F5F] leading-tight mb-1 group-hover:text-[#1B8A8F] transition-colors">${p.nombre}</h4>
+                    <div class="flex justify-between items-center mt-4">
+                        <span class="text-2xl font-black text-[#111111]">$${p.precio.toFixed(2)}</span>
+                        <button 
+                            onclick="${sinStock ? '' : `addToCart(${p.id})`}" 
+                            class="${sinStock ? 'bg-gray-200 border-gray-300 cursor-not-allowed text-gray-400' : 'bg-[#FFD54A] text-[#0F5F5F] border-[#0F5F5F] hover:bg-[#0F5F5F] hover:text-white'} p-3 rounded-2xl border-2 transition-all transform active:scale-90"
+                            ${sinStock ? 'disabled' : ''}>
+                            ${sinStock ? '🚫' : '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 4v16m8-8H4" stroke-width="3" stroke-linecap="round"/></svg>'}
+                        </button>
+                    </div>
+                    <p class="text-[9px] mt-3 font-bold opacity-30 tracking-widest uppercase">EAN: ${p.barras}</p>
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+// 3. Funciones del Carrito
+function addToCart(id) {
+    const p = productos.find(x => x.id === id);
+    if (p) {
+        carrito.push(p);
+        updateCartUI();
+    }
+}
+
+function removeFromCart(index) {
+    carrito.splice(index, 1);
+    updateCartUI();
+}
+
+function updateCartUI() {
+    document.getElementById('cart-count').innerText = carrito.length;
+    const itemsContainer = document.getElementById('cart-items');
+    const total = carrito.reduce((sum, p) => sum + p.precio, 0);
+    
+    document.getElementById('cart-total').innerText = `$${total.toFixed(2)}`;
+    
+    itemsContainer.innerHTML = carrito.map((item, index) => `
+        <div class="flex gap-4 items-center bg-white border border-gray-100 p-4 rounded-3xl shadow-sm">
+            <div class="w-16 h-20 bg-gray-100 rounded-xl overflow-hidden flex-shrink-0 border border-[#0F5F5F]/10">
+                <img src="${item.img}" class="w-full h-full object-cover">
+            </div>
+            <div class="flex-grow">
+                <h5 class="font-bold text-sm text-[#0F5F5F] leading-tight">${item.nombre}</h5>
+                <p class="text-[10px] font-black text-[#1B8A8F] uppercase">${item.editorial}</p>
+                <p class="font-black mt-1">$${item.precio.toFixed(2)}</p>
+            </div>
+            <button onclick="removeFromCart(${index})" class="text-red-400 hover:text-red-600 p-2">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"/></svg>
+            </button>
+        </div>
+    `).join('');
+}
+
+function toggleCart() {
+    document.getElementById('cart-modal').classList.toggle('hidden');
+}
+
+function updateDeliveryFields() {
+    const method = document.getElementById('delivery-method').value;
+    document.getElementById('extra-fields').classList.toggle('hidden', method !== 'envio');
+}
+
+function sendWhatsApp() {
+    if (carrito.length === 0) {
+        return alert("La boticaria dice: ¡Tu cesta está vacía!");
+    }
+
+    const total = carrito.reduce((sum, p) => sum + p.precio, 0);
+    
+    // 1. Listado de productos (usando guiones normales para máxima compatibilidad)
+    const itemsMsg = carrito.map(p => `- ${p.nombre} (${p.editorial}) - $${p.precio.toFixed(2)}`).join('\n');
+    
+    const deliverySelect = document.getElementById('delivery-method');
+    const deliveryLabel = deliverySelect.options[deliverySelect.selectedIndex].text;
+    
+    // 2. Información de entrega
+    let extraInfo = `\n📍 *Punto de Entrega:* ${deliveryLabel}`;
+    
+    if (deliverySelect.value === 'envio') {
+        const ag = document.getElementById('agencia').value || 'No especificada';
+        const suc = document.getElementById('sucursal').value || 'No especificada';
+        extraInfo += `\n📦 *Agencia:* ${ag}\n🏙️ *Destino:* ${suc}`;
+    }
+
+    // 3. Construcción del mensaje
+    // He cambiado la línea de símbolos especiales por una línea de guiones estándar que WhatsApp negrea bien
+    const mensajeTexto = `🌿 *Manga Collection - Nuevo Pedido*\n` +
+                         `--------------------------------------------\n` +
+                         `${itemsMsg}\n` +
+                         `--------------------------------------------\n` +
+                         `💰 *Total:* $${total.toFixed(2)}${extraInfo}\n\n` +
+                         `¡Espero su respuesta para concretar! ✨`;
+
+    // 4. Codificación y apertura
+    const url = "https://wa.me/50763774477?text=" + encodeURIComponent(mensajeTexto);
+    
+    window.open(url, '_blank');
+}
+
+// 4. Lógica de filtros
+function actualizarGaleria(editorialSeleccionada) {
+    const listaFiltrada = editorialSeleccionada === 'Todas' 
+        ? productos 
+        : productos.filter(p => p.editorial === editorialSeleccionada);
+    renderProducts(listaFiltrada);
+}
+
+// Inicializar al cargar
+window.onload = () => renderProducts();
+    </script>
+    <script type="module" src="app.js"></script>
+    
+</body>
+</html>

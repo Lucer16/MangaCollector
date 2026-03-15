@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <title>Catálogo | Manga Collector</title>
+    <style>
+        body { font-family: 'Outfit', sans-serif; scroll-behavior: smooth; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+        .kawaii-shadow { box-shadow: 6px 6px 0px #0F5F5F; }
+        .card-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgba(15, 95, 95, 0.1); }
+        .glass { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(12px); }
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #1B8A8F; border-radius: 10px; }
+        .bg-pattern { background-color: #0F5F5F; background-image: radial-gradient(#1B8A8F 0.5px, transparent 0.5px); background-size: 24px 24px; }
+    </style>
+</head>
+<body class="bg-[#FFF5F8] text-[#111111] min-h-screen flex flex-col">
+
+    <div class="bg-[#0F5F5F] text-[#FFD54A] py-2.5 px-4 text-center text-xs md:text-sm font-bold tracking-wider">
+        🌸 PRÓXIMA PARADA: <span class="text-white uppercase">MedMarket</span> • ENVIAMOS A TODO PANAMÁ 🇵🇦
+    </div>
+
+    <nav class="sticky top-0 z-50 glass border-b border-[#0F5F5F]/10 px-6 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3 group cursor-pointer">
+                <div class="bg-[#FFD54A] p-2 rounded-2xl group-hover:rotate-12 transition-transform duration-300 border-2 border-[#0F5F5F]">
+                    <span class="text-2xl">🌿</span>
+                </div>
+                <div>
+                    <h1 class="font-serif text-xl md:text-2xl font-black text-[#0F5F5F] leading-none">Manga<span class="text-[#1B8A8F]">Collection</span></h1>
+                    <span class="text-[10px] uppercase tracking-[0.2em] font-bold text-[#1B8A8F]">Boticaria Selection</span>
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-4 md:gap-8">
+                <div class="hidden lg:flex gap-8 font-bold text-sm text-[#0F5F5F] uppercase tracking-widest">
+                    <a href="index.html" class="hover:text-[#1B8A8F] transition-colors">Inicio</a>
+                    <a href="tienda.html" class="hover:text-[#1B8A8F] transition-colors">Catálogo</a>
+                    <a href="#contacto" class="hover:text-[#1B8A8F] transition-colors">Horarios</a>
+                </div>
+                <button onclick="toggleCart()" class="bg-[#0F5F5F] text-white p-3 rounded-2xl relative shadow-lg hover:scale-105 transition-all">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M16 11V7a4 4 0 118 0v4M5 9h14l1 12H4L5 9z" stroke-width="2" stroke-linecap="round"/></svg>
+                    <span id="cart-count" class="absolute -top-2 -right-2 bg-[#FFD54A] text-[#0F5F5F] text-[10px] font-black h-6 w-6 flex items-center justify-center rounded-full border-2 border-[#0F5F5F]">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="bg-pattern py-16 px-6 relative overflow-hidden">
+        <div class="container mx-auto text-center relative z-10">
+            <h2 class="text-4xl md:text-6xl font-serif text-[#FFD54A] mb-4">Tu Boticaria de Mangas</h2>
+            <p class="text-white/90 font-medium max-w-2xl mx-auto italic">Historias curadas para alimentar tu imaginación, disponibles en el corazón de Panamá.</p>
+        </div>
+    </header>
+
+    <section id="catalogo" class="container mx-auto px-6 -mt-10 relative z-20">
+        <div class="bg-white p-6 rounded-[2.5rem] shadow-xl border border-[#0F5F5F]/10 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div>
+                <label class="text-[10px] font-black uppercase tracking-widest text-[#1B8A8F] mb-2 block">Buscador</label>
+                <input type="text" id="inputBusqueda" oninput="aplicarFiltros(true)" placeholder="Nombre del manga..." 
+                    class="w-full p-4 rounded-2xl border-2 border-gray-50 focus:border-[#1B8A8F] outline-none font-medium">
+            </div>
+            <div>
+                <label class="text-[10px] font-black uppercase tracking-widest text-[#1B8A8F] mb-2 block">Editorial</label>
+                <select id="selectEditorial" onchange="aplicarFiltros(true)" class="w-full p-4 rounded-2xl border-2 border-gray-50 outline-none bg-white font-bold text-[#0F5F5F]">
+                    <option value="Todas">Todas</option>
+                    <option value="Panini Manga">Panini Manga</option>
+                    <option value="Panini Manga españa">Panini Manga España</option>
+                    <option value="norma Editorial">Norma Editorial</option>
+                    <option value="Planeta Comic">Planeta Comic</option>
+                    <option value="Ivréa España">Ivréa España</option>
+                    <option value="Milky Way Ediciones">Milky Way Ediciones</option>
+                    <option value="Editorial Kamite">Editorial Kamite</option>
+                    <option value="Distrito Manga Mx">Distrito Manga Mx</option>
+                    <option value="Arechi Manga">Arechi Manga</option>
+                    <option value="Ecc Ediciones">Ecc Ediciones</option>
+                    <option value="Odaiba Ediciones">Odaiba Ediciones</option>
+                </select>
+            </div>
+            <div>
+                <label class="text-[10px] font-black uppercase tracking-widest text-[#1B8A8F] mb-2 block">Ordenar por</label>
+                <select id="ordenarPrecio" onchange="aplicarFiltros(true)" class="w-full p-4 rounded-2xl border-2 border-gray-50 outline-none bg-white font-bold text-[#0F5F5F]">
+                    <option value="relevancia">Relevancia</option>
+                    <option value="bajo">Precio: Menor a Mayor</option>
+                    <option value="alto">Precio: Mayor a Menor</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-6 pb-20 mt-12 flex-grow">
+        <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"></div>
+        
+        <div id="pagination-container" class="mt-16 text-center">
+            <button id="btn-load-more" onclick="loadMore()" class="bg-[#0F5F5F] text-white px-10 py-4 rounded-2xl font-bold kawaii-shadow hover:translate-y-1 transition-all inline-block">
+                Cargar más ejemplares
+            </button>
+        </div>
+
+        <div id="no-results" class="hidden text-center py-20">
+            <span class="text-6xl">🔍</span>
+            <h3 class="text-2xl font-serif text-[#0F5F5F] mt-4">No hay coincidencias en los estantes.</h3>
+        </div>
+    </main>
+
+    <div id="cart-modal" class="fixed inset-0 bg-[#0F5F5F]/40 backdrop-blur-sm z-[100] hidden flex justify-end">
+        <div class="bg-white w-full max-w-md h-full shadow-2xl flex flex-col border-l-4 border-[#0F5F5F]">
+            <div class="p-8 border-b border-gray-100 flex justify-between items-center bg-[#FFF5F8]">
+                <div>
+                    <h3 class="text-2xl font-black text-[#0F5F5F]">Tu Pedido</h3>
+                    <p class="text-xs font-bold text-[#1B8A8F]">Cesta de la Boticaria</p>
+                </div>
+                <button onclick="toggleCart()" class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-200 transition-colors text-2xl font-bold">&times;</button>
+            </div>
+            
+            <div id="cart-items" class="flex-grow overflow-y-auto p-8 space-y-6 custom-scrollbar"></div>
+
+            <div class="p-8 bg-gray-50 border-t-2 border-dashed border-gray-200">
+                <div class="space-y-4 mb-8">
+                    <div>
+                        <label class="block text-xs font-black text-[#0F5F5F] uppercase mb-2 tracking-widest">Método de Entrega</label>
+                        <select id="delivery-method" onchange="updateDeliveryFields()" class="w-full p-4 border-2 border-[#0F5F5F]/20 rounded-2xl font-bold bg-white focus:border-[#1B8A8F] outline-none">
+                            <option value="presencial">Recogida: MedMarket (Paitilla)</option>
+                            <option value="biblioteca">Recogida: Biblioteca Universitaria UP</option>
+                            <option value="albrook">Recogida: Albrook Mall</option>
+                            <option value="envio">Envío a Domicilio / Sucursal</option>
+                        </select>
+                    </div>
+                    <div id="extra-fields" class="hidden space-y-4">
+                        <input type="text" id="agencia" placeholder="Agencia (Uno Express, Chavale...)" class="w-full p-4 border-2 border-gray-200 rounded-2xl font-medium outline-none focus:border-[#1B8A8F]">
+                        <input type="text" id="sucursal" placeholder="Sucursal o Ciudad de destino" class="w-full p-4 border-2 border-gray-200 rounded-2xl font-medium outline-none focus:border-[#1B8A8F]">
+                    </div>
+                </div>
+
+                <div class="flex justify-between items-center mb-6 px-2">
+                    <span class="font-bold text-gray-500 uppercase text-xs">Total</span>
+                    <span id="cart-total" class="text-2xl font-black text-[#0F5F5F]">$0.00</span>
+                </div>
+
+                <button onclick="sendWhatsApp()" class="w-full bg-[#25D366] text-white py-5 rounded-[2rem] font-black text-lg shadow-xl hover:scale-[1.02] active:scale-95 transition-all">
+                    Confirmar Pedido 🟢
+                </button>
+                <p class="text-[10px] text-center mt-4 text-gray-400 font-bold uppercase tracking-widest">Gracias por confiar en nuestra selección</p>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contacto" class="bg-[#0F5F5F] text-white py-24 px-6">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-white/10 pb-12">
+            <div class="md:col-span-2">
+                <h4 class="text-4xl font-serif mb-6 text-[#FFD54A]">Manga Collection</h4>
+                <p class="max-w-sm opacity-70 leading-relaxed font-medium">
+                    Especialistas en traer las mejores ediciones de manga a Panamá, con un toque de cuidado y elegancia boticaria.
+                </p>
+            </div>
+            <div>
+                <h5 class="text-[#FFD54A] font-black uppercase text-xs tracking-widest mb-6">Horarios de Atención</h5>
+                <ul class="space-y-3 opacity-80 text-sm font-bold">
+                    <li>LUN - VIE: 10:00 AM - 7:00 PM</li>
+                    <li>SÁBADO: 11:00 AM - 5:00 PM</li>
+                    <li class="text-[#1B8A8F]">DOMINGO: CERRADO (Lectura)</li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="text-[#FFD54A] font-black uppercase text-xs tracking-widest mb-6">Contacto Directo</h5>
+                <ul class="space-y-3 opacity-80 text-sm font-bold">
+                    <li>📞 +507 0000-0000</li>
+                    <li>📍 MedMarket, Panamá City</li>
+                    <li>📸 @mangacollection.pa</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container mx-auto mt-8 flex justify-between items-center text-[10px] font-bold uppercase tracking-widest opacity-40">
+            <p>&copy; 2026 MANGA COLLECTION PA</p>
+            <p>Hecho con amor por Wecreate</p>
+        </div>
+    </footer>
+
+    <script>
+        let PRODUCTOS_BASE = [];
+        let filtrados = [];
+        let itemsToShow = 12; 
+        let carrito = [];
+
+        async function cargarDatos() {
+            try {
+                const respuesta = await fetch('./mangas.json');
+                if (!respuesta.ok) throw new Error('No se pudo cargar el archivo');
+                PRODUCTOS_BASE = await respuesta.json();
+                aplicarFiltros(true);
+            } catch (error) {
+                console.error("Error:", error);
+                document.getElementById('product-grid').innerHTML = `<p class="col-span-full text-center text-red-500 font-bold">Error al cargar mangas.json</p>`;
+            }
+        }
+
+        function aplicarFiltros(resetPagination = false) {
+            const busqueda = document.getElementById('inputBusqueda').value.toLowerCase().trim();
+            const editorialSeleccionada = document.getElementById('selectEditorial').value.toLowerCase().trim();
+            const orden = document.getElementById('ordenarPrecio').value;
+
+            if(resetPagination) itemsToShow = 12;
+
+            filtrados = PRODUCTOS_BASE.filter(p => {
+                const nombreManga = (p.Título || "").toLowerCase().trim();
+                const editorialManga = (p.Editorial || "").toLowerCase().trim();
+                const coincideBusqueda = nombreManga.includes(busqueda);
+                const coincideEditorial = (editorialSeleccionada === 'todas') || (editorialManga.includes(editorialSeleccionada));
+                return coincideBusqueda && coincideEditorial;
+            });
+
+            if (orden === 'bajo') filtrados.sort((a, b) => parseFloat(a.Precio || 0) - parseFloat(b.Precio || 0));
+            if (orden === 'alto') filtrados.sort((a, b) => parseFloat(b.Precio || 0) - parseFloat(a.Precio || 0));
+
+            renderGrid();
+        }
+
+        function renderGrid() {
+            const container = document.getElementById('product-grid');
+            const noResults = document.getElementById('no-results');
+            const btnMore = document.getElementById('btn-load-more');
+            
+            const currentItems = filtrados.slice(0, itemsToShow);
+
+            if (filtrados.length === 0) {
+                container.innerHTML = '';
+                noResults.classList.remove('hidden');
+                btnMore.style.display = 'none';
+                return;
+            }
+
+            noResults.classList.add('hidden');
+            container.innerHTML = currentItems.map((p) => {
+                const nombre = (p.Título || "").trim();
+                const editorial = (p.Editorial || "Sin Editorial").trim();
+                const precio = parseFloat(p.Precio || 0);
+                const stock = parseInt(p["En inventario"] || 0);
+                const imagen = p.Imagen || `https://images.placeholders.dev/?width=300&height=400&text=${nombre}&bg=0F5F5F`;
+                const sinStock = stock <= 0;
+
+                return `
+                    <div class="bg-white border border-[#0F5F5F]/10 p-5 rounded-[2.5rem] card-hover transition-all shadow-sm flex flex-col">
+                        <div class="relative overflow-hidden rounded-[1.8rem] mb-4 aspect-[3/4]">
+                            <img src="${imagen}" class="w-full h-full object-cover">
+                            <div class="absolute top-3 left-3 bg-[#0F5F5F] text-white text-[10px] font-black px-3 py-1 rounded-full uppercase">
+                                ${editorial}
+                            </div>
+                        </div>
+                        <h4 class="font-bold text-[#0F5F5F] text-sm leading-tight mb-4 min-h-[2.5rem] flex-grow">${nombre}</h4>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-black">$${precio.toFixed(2)}</span>
+                            <button onclick="addToCart('${nombre.replace(/'/g, "")}', ${precio}, '${imagen}', '${editorial}')" 
+                                class="${sinStock ? 'bg-gray-200 cursor-not-allowed' : 'bg-[#FFD54A] hover:bg-[#0F5F5F] hover:text-white'} p-3 rounded-2xl border-2 border-[#0F5F5F] transition-all"
+                                ${sinStock ? 'disabled' : ''}>
+                                ${sinStock ? '🚫' : '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 4v16m8-8H4" stroke-width="3" stroke-linecap="round"/></svg>'}
+                            </button>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            btnMore.style.display = itemsToShow >= filtrados.length ? 'none' : 'inline-block';
+        }
+
+        function loadMore() {
+            itemsToShow += 12;
+            renderGrid();
+        }
+
+        function addToCart(nombre, precio, img, editorial) {
+            carrito.push({ nombre, precio, img, editorial });
+            updateCartUI();
+        }
+
+        function removeFromCart(index) {
+            carrito.splice(index, 1);
+            updateCartUI();
+        }
+
+        function updateCartUI() {
+            document.getElementById('cart-count').innerText = carrito.length;
+            const container = document.getElementById('cart-items');
+            const total = carrito.reduce((sum, p) => sum + p.precio, 0);
+            document.getElementById('cart-total').innerText = `$${total.toFixed(2)}`;
+            
+            container.innerHTML = carrito.map((item, index) => `
+                <div class="flex gap-4 items-center bg-white border border-gray-100 p-4 rounded-3xl shadow-sm">
+                    <div class="w-16 h-20 bg-gray-100 rounded-xl overflow-hidden flex-shrink-0">
+                        <img src="${item.img}" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex-grow">
+                        <h5 class="font-bold text-sm text-[#0F5F5F] leading-tight">${item.nombre}</h5>
+                        <p class="text-[10px] font-black text-[#1B8A8F] uppercase">${item.editorial}</p>
+                        <p class="font-black mt-1">$${item.precio.toFixed(2)}</p>
+                    </div>
+                    <button onclick="removeFromCart(${index})" class="text-red-400 p-2 text-xl">&times;</button>
+                </div>
+            `).join('');
+        }
+
+        function toggleCart() {
+            document.getElementById('cart-modal').classList.toggle('hidden');
+        }
+
+        function updateDeliveryFields() {
+            const method = document.getElementById('delivery-method').value;
+            document.getElementById('extra-fields').classList.toggle('hidden', method !== 'envio');
+        }
+
+        function sendWhatsApp() {
+            if(carrito.length === 0) return alert("¡Tu cesta está vacía!");
+            const total = carrito.reduce((sum, p) => sum + p.precio, 0);
+            const itemsMsg = carrito.map(p => `- ${p.nombre} ($${p.precio})`).join('%0A');
+            const delivery = document.getElementById('delivery-method').options[document.getElementById('delivery-method').selectedIndex].text;
+            const mensaje = `🌿 *Nuevo Pedido*%0A${itemsMsg}%0A%0A*Total:* $${total.toFixed(2)}%0A📍 *Entrega:* ${delivery}`;
+            window.open(`https://wa.me/50763774477?text=${mensaje}`, '_blank');
+        }
+
+        window.onload = cargarDatos;
+    </script>
+</body>
+</html>
