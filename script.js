@@ -233,8 +233,25 @@ function showNotification(mensaje) {
     setTimeout(() => toast.remove(), 3000);
 }
 
+// --- GENERADOR DE NÚMERO DE PEDIDO ---
+function generarNumeroPedido() {
+    const fecha = new Date();
+    const dia = fecha.getDate().toString().padStart(2, '0');
+    const meses = ["ENE", "FEB", "MAR", "ABR", "MAY", "JUN", "JUL", "AGO", "SEP", "OCT", "NOV", "DIC"];
+    const mes = meses[fecha.getMonth()];
+    const anio = fecha.getFullYear().toString().slice(-2);
+    const correlativo = (carrito.length + Math.floor(Math.random() * 100)).toString().padStart(2, '0');
+    
+    return `${dia}${mes}${anio}${correlativo}`;
+}
+
 function sendWhatsApp() {
     if (carrito.length === 0) return alert("¡Tu cesta está vacía!");
+    
+    const nombreCliente = document.getElementById('client-name').value.trim();
+    if (!nombreCliente) return alert("Por favor, ingresa el nombre de quien recibe.");
+
+    const numPedido = generarNumeroPedido();
     const subtotal = carrito.reduce((sum, p) => sum + (p.precio * p.cantidad), 0);
     const montoDescuento = subtotal * (descuentoAplicado / 100);
     const totalFinal = subtotal - montoDescuento;
@@ -242,7 +259,8 @@ function sendWhatsApp() {
     const itemsMsg = carrito.map(p => `- ${p.nombre} (${p.editorial}) [Cod: ${p.barras}] x${p.cantidad}`).join('%0A');
     const delivery = document.getElementById('delivery-method').options[document.getElementById('delivery-method').selectedIndex].text;
     
-    let mensaje = `🌿 *NUEVO PEDIDO*%0A${itemsMsg}%0A%0A*Subtotal:* $${subtotal.toFixed(2)}`;
+    let mensaje = `*Manga Collector, tienda de mangas para entrega inmediata.*%0A*Número de pedido:* ${numPedido}%0A*Nombre:* ${nombreCliente}%0A%0A🌿 *DETALLE:*%0A${itemsMsg}%0A%0A*Subtotal:* $${subtotal.toFixed(2)}`;
+    
     if(descuentoAplicado > 0) mensaje += `%0A*Descuento (${descuentoAplicado}%):* -$${montoDescuento.toFixed(2)}`;
     mensaje += `%0A*TOTAL FINAL:* $${totalFinal.toFixed(2)}%0A📍 *Entrega:* ${delivery}`;
     
@@ -271,7 +289,7 @@ function iniciarPromoSliderFade() {
 
     const mensajes = [
         { 
-            html: '🌸 PRÓXIMA PARADA: <span class="text-white uppercase">MedMarket (Paitilla)</span> • ENVIAMOS A TODO PANAMÁ 🇵🇦',
+            html: '🌸 PRÓXIMA PARADA: <span class="text-white uppercase">MedMarket </span> • ENVIAMOS A TODO PANAMÁ 🇵🇦',
             bg: '#0F5F5F', // Verde Boticaria
             text: '#FFD54A' 
         },
@@ -289,7 +307,12 @@ function iniciarPromoSliderFade() {
             html: '<a href="https://wa.me/50764221421" target="_blank" class="text-white no-underline hover:opacity-80 transition-opacity">💬 ¿DUDAS? <span class="underline decoration-2">CHATEA CON NOSOTROS</span> 🌿</a>',
             bg: '#1B8A8F', 
             text: '#FFFFFF' 
-        }
+        },
+        { 
+        html: '✨ <span class="uppercase text-[#FFD54A]">¡Estamos mejorando el sitio web! </span>Muy pronto verás todas las imágenes de los productos. ',
+        bg: '#0F5F5F', 
+        text: '#FFFFFF' 
+    },
     ];
 
     if (!bar || !content) return;
