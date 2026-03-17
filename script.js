@@ -233,14 +233,15 @@ function showNotification(mensaje) {
     setTimeout(() => toast.remove(), 3000);
 }
 
-// --- GENERADOR DE NÚMERO DE PEDIDO ---
+// --- GENERADOR DE NÚMERO DE PEDIDO (Formato: 16MAR2601) ---
 function generarNumeroPedido() {
     const fecha = new Date();
     const dia = fecha.getDate().toString().padStart(2, '0');
     const meses = ["ENE", "FEB", "MAR", "ABR", "MAY", "JUN", "JUL", "AGO", "SEP", "OCT", "NOV", "DIC"];
     const mes = meses[fecha.getMonth()];
     const anio = fecha.getFullYear().toString().slice(-2);
-    const correlativo = (carrito.length + Math.floor(Math.random() * 100)).toString().padStart(2, '0');
+    // Usamos el tamaño del carrito + un random para el correlativo de 2 dígitos
+    const correlativo = (carrito.length + Math.floor(Math.random() * 90) + 1).toString().padStart(2, '0');
     
     return `${dia}${mes}${anio}${correlativo}`;
 }
@@ -252,21 +253,46 @@ function sendWhatsApp() {
     if (!nombreCliente) return alert("Por favor, ingresa el nombre de quien recibe.");
 
     const numPedido = generarNumeroPedido();
+    const fechaActual = new Date().toLocaleDateString('en-US'); // Formato MM/DD/YYYY según tu ejemplo
     const subtotal = carrito.reduce((sum, p) => sum + (p.precio * p.cantidad), 0);
     const montoDescuento = subtotal * (descuentoAplicado / 100);
     const totalFinal = subtotal - montoDescuento;
-
-    const itemsMsg = carrito.map(p => `- ${p.nombre} (${p.editorial}) [Cod: ${p.barras}] x${p.cantidad}`).join('%0A');
     const delivery = document.getElementById('delivery-method').options[document.getElementById('delivery-method').selectedIndex].text;
-    
-    let mensaje = `*Manga Collector, tienda de mangas para entrega inmediata.*%0A*Número de pedido:* ${numPedido}%0A*Nombre:* ${nombreCliente}%0A%0A🌿 *DETALLE:*%0A${itemsMsg}%0A%0A*Subtotal:* $${subtotal.toFixed(2)}`;
-    
-    if(descuentoAplicado > 0) mensaje += `%0A*Descuento (${descuentoAplicado}%):* -$${montoDescuento.toFixed(2)}`;
-    mensaje += `%0A*TOTAL FINAL:* $${totalFinal.toFixed(2)}%0A📍 *Entrega:* ${delivery}`;
-    
-    window.open(`https://wa.me/50764221421?text=${mensaje}`, '_blank');
-}
 
+    // --- CONSTRUCCIÓN DEL DETALLE LIMPIO ---
+    const itemsMsg = carrito.map(p => {
+        return `*${p.nombre}*, ${p.editorial}\nCód. ${p.barras}\n${p.cantidad} x $${p.precio.toFixed(2)}`;
+    }).join('\n\n');
+
+    // --- FORMATO FINAL DEL MENSAJE ---
+    const mensaje = `*Manga Collector*
+"Tu rincón del manga en la UP"
+
+Multiservicios AR
+*Fecha:* ${fechaActual}
+*Número de pedido:* ${numPedido}
+*Destinatario:* ${nombreCliente}
+
+*Detalle de compra:*
+
+${itemsMsg}
+
+*Sub-total:* $ ${subtotal.toFixed(2)}
+*Descuento:* $ ${montoDescuento.toFixed(2)}
+*Total:* $ ${totalFinal.toFixed(2)}
+
+*Métodos de pago:* - Yappy
+ - Efectivo
+ - Transferencia
+
+*Tipo de entrega:* ${delivery.toUpperCase()}
+
+¡Gracias por tu compra!
+** Envía tu comprobante aquí **`;
+
+    // Abrir WhatsApp con el mensaje codificado
+    window.open(`https://wa.me/50764221421?text=${encodeURIComponent(mensaje)}`, '_blank');
+}
 function aplicarDescuentoAutomatico() {
     // Usamos directamente la constante del archivo descuentos.js
     if (typeof CONFIG_DESCUENTOS !== 'undefined') {
@@ -348,3 +374,40 @@ window.addEventListener('load', () => {
     if(typeof cargarDatos === 'function') cargarDatos();
     iniciarPromoSliderFade();
 });
+
+// --- 3. REDIRIGIR AL CHECKOUT (PÁGINA NUEVA) ---
+function irAlCheckout() {
+    // 1. Validar que el carrito no esté vacío
+    if (carrito.length === 0) return alert("¡Tu cesta está vacía!");
+
+    // 2. Capturar los datos del modal del carrito
+    const nombreCliente = document.getElementById('client-name').value.trim();
+    const entregaSeleccionada = document.getElementById('delivery-method');
+    const textoEntrega = entregaSeleccionada.options[entregaSeleccionada.selectedIndex].text;
+
+    // 3. Validar que puso un nombre
+    if (!nombreCliente) {
+        alert("Por favor, dinos quién recibe el pedido.");
+        document.getElementById('client-name').focus();
+        return;
+    }
+
+    // 4. Calcular montos
+    const subtotal = carrito.reduce((sum, p) => sum + (p.precio * p.cantidad), 0);
+    const montoDescuento = subtotal * (descuentoAplicado / 100);
+
+    // 5. Crear el objeto de datos incluyendo lo que pediste
+    const checkoutData = {
+        items: carrito,
+        subtotal: subtotal,
+        descuento: montoDescuento,
+        total: subtotal - montoDescuento,
+        numPedido: generarNumeroPedido(),
+        cliente: nombreCliente, // <--- AQUÍ SE GUARDA EL NOMBRE
+        metodoEntrega: textoEntrega // <--- AQUÍ SE GUARDA LA ENTREGA
+    };
+    
+    // 6. Guardar en localStorage y saltar
+    localStorage.setItem('manga_checkout', JSON.stringify(checkoutData));
+    window.location.href = 'checkout.html';
+}
