@@ -3,7 +3,7 @@
    "Título": "¡No te Rindas Nakamura!",
    "Imagen": "img/imagen.svg",
    "Editorial": "Milky Way Ediciones",
-   "Codigo de barras": "9788418222160.00",
+   "Codigo de barras": "9788418222160",
    "Precio": 12.95,
    "En inventario": 2
  },
@@ -11,7 +11,7 @@
    "Título": "¡Soy una Araña! ¿y qué? 02",
    "Imagen": "img/imagen 1.svg",
    "Editorial": "Editorial Kamite",
-   "Codigo de barras": "7500588017382.00",
+   "Codigo de barras": "7500588017382",
    "Precio": 11.95,
    "En inventario": 2
  },
@@ -19,7 +19,7 @@
    "Título": "¡Soy una Araña! ¿y qué? 03",
    "Imagen": "img/imagen 2.svg",
    "Editorial": "Editorial Kamite",
-   "Codigo de barras": "7500588018099.00",
+   "Codigo de barras": "7500588018099",
    "Precio": 11.95,
    "En inventario": 1
  },
@@ -27,7 +27,7 @@
    "Título": "A Silent Voice 02",
    "Imagen": "img/imagen 3.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075481173.00",
+   "Codigo de barras": "9786075481173",
    "Precio": 9.95,
    "En inventario": 1
  },
@@ -35,7 +35,7 @@
    "Título": "Alice in Bordeland 01",
    "Imagen": "img/imagen 4.svg",
    "Editorial": "Ivréa España",
-   "Codigo de barras": "9788418963605.00",
+   "Codigo de barras": "9788418963605",
    "Precio": 17.95,
    "En inventario": 1
  },
@@ -43,7 +43,7 @@
    "Título": "Alice in Bordeland 03",
    "Imagen": "img/imagen 5.svg",
    "Editorial": "Ivréa España",
-   "Codigo de barras": "9788419185150.00",
+   "Codigo de barras": "9788419185150",
    "Precio": 17.95,
    "En inventario": 1
  },
@@ -51,7 +51,7 @@
    "Título": "All you Need is Kill 01",
    "Imagen": "img/imagen 6.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075280264.00",
+   "Codigo de barras": "9786075280264",
    "Precio": 9.95,
    "En inventario": 1
  },
@@ -59,7 +59,7 @@
    "Título": "Anohana 02 ",
    "Imagen": "img/imagen 7.svg",
    "Editorial": "Ivréa España",
-   "Codigo de barras": "9788416905515.00",
+   "Codigo de barras": "9788416905515",
    "Precio": 11.95,
    "En inventario": 1
  },
@@ -67,308 +67,300 @@
    "Título": "Anohana 03 ",
    "Imagen": "img/imagen 8.svg",
    "Editorial": "Ivréa España",
-   "Codigo de barras": "9788416905645.00",
+   "Codigo de barras": "9788416905645",
    "Precio": 11.95,
    "En inventario": 1
  },
  {
-   "Título": "Another 0 ",
+   "Título": "Another 0 + Box",
+   "Imagen": "img/imagen 9.svg",
    "Editorial": "Ivréa España",
-   "Codigo de barras": "9788417490461.00",
+   "Codigo de barras": "9788417490461",
    "Precio": 11.95,
    "En inventario": 1
  },
  {
-   "Título": "Ao No Flag 01 ",
+   "Título": "Ao No Flag 01",
+   "Imagen": "img/imagen 10.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075685380.00",
+   "Codigo de barras": "9786075685380",
    "Precio": 10.5,
    "En inventario": 1
  },
  {
    "Título": "Ao No Flag 02 ",
+   "Imagen": "img/imagen 11.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075686226.00",
+   "Codigo de barras": "9786075686226",
    "Precio": 10.5,
    "En inventario": 2
  },
  {
    "Título": "Aoha Raido 03 ",
+   "Imagen": "img/imagen 12.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786079718831.00",
+   "Codigo de barras": "9786079718831",
    "Precio": 9.95,
    "En inventario": 1
  },
  {
    "Título": "Ataque a los Titanes 01 ",
+   "Imagen": "img/imagen 13.svg",
    "Editorial": "Norma Editorial",
-   "Codigo de barras": "9788467960921.00",
+   "Codigo de barras": "9788467960921",
    "Precio": 11.95,
    "En inventario": 1
  },
  {
    "Título": "Ataque a los Titanes 02 ",
+   "Imagen": "img/imagen 14.svg",
    "Editorial": " Norma Editorial",
-   "Codigo de barras": "9788467960938.00",
+   "Codigo de barras": "9788467960938",
    "Precio": 11.95,
    "En inventario": 1
  },
  {
    "Título": "Ataque de los Titanes 03 ",
+   "Imagen": "img/imagen 15.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075280905.00",
+   "Codigo de barras": "9786075280905",
    "Precio": 9.95,
    "En inventario": 1
  },
  {
    "Título": "Ataque de los Titanes 10 ",
+   "Imagen": "img/imagen 16.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075282039.00",
+   "Codigo de barras": "9786075282039",
    "Precio": 9.95,
    "En inventario": 2
  },
  {
    "Título": "Ataque de los Titanes 11 ",
+   "Imagen": "img/imagen 17.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075282138.00",
+   "Codigo de barras": "9786075282138",
    "Precio": 9.95,
    "En inventario": 1
  },
  {
    "Título": "Ataque de los Titanes 15 ",
+   "Imagen": "img/imagen 18.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075282718.00",
+   "Codigo de barras": "9786075282718",
    "Precio": 9.95,
    "En inventario": 1
  },
  {
    "Título": "Ataque de los Titanes 17 ",
+   "Imagen": "img/imagen 19.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075282947.00",
+   "Codigo de barras": "9786075282947",
    "Precio": 9.95,
    "En inventario": 1
  },
  {
    "Título": "Ataque de los Titanes 19 ",
+   "Imagen": "img/imagen 20.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075283159.00",
+   "Codigo de barras": "9786075283159",
    "Precio": 9.95,
    "En inventario": 1
  },
  {
-   "Título": "Ataque de los Titanes 28 ",
+   "Título": "Ataque de los Titanes 28",
+   "Imagen": "img/imagen 21.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786076342084.00",
+   "Codigo de barras": "9786076342084",
    "Precio": 9.95,
    "En inventario": 2
  },
  {
-   "Título": "Bakemonogatari 05 ",
+   "Título": "Bakemonogatari 05",
+   "Imagen": "img/imagen 22.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786076349182.00",
+   "Codigo de barras": "9786076349182",
    "Precio": 10.5,
    "En inventario": 1
  },
  {
    "Título": "Bakemonogatari 06 ",
+   "Imagen": "img/imagen 23.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075683430.00",
+   "Codigo de barras": "9786075683430",
    "Precio": 10.5,
    "En inventario": 1
  },
  {
-   "Título": "Berserk 05 ",
+   "Título": "Berserk 05",
+   "Imagen": "img/imagen 24.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075280776.00",
+   "Codigo de barras": "9786075280776",
    "Precio": 9.95,
    "En inventario": 2
  },
  {
    "Título": "Berserk 41 ",
+   "Imagen": "img/imagen 25.svg",
    "Editorial": "Edición Especial",
-   "Codigo de barras": "7503041492092.00",
+   "Codigo de barras": "7503041492092",
    "Precio": 24.95,
-   "En inventario": 1
+   "En inventario": 0
  },
  {
    "Título": "Berserk Maximun 01 ",
+   "Imagen": "img/imagen 26.svg",
    "Editorial": "Panini Manga España",
-   "Codigo de barras": "9788411015035.00",
+   "Codigo de barras": "9788411015035",
    "Precio": 21.95,
    "En inventario": 1
  },
  {
    "Título": "Berserk Maximun 02 ",
+   "Imagen": "img/imagen 27.svg",
    "Editorial": "Panini Manga España",
-   "Codigo de barras": "9788411016964.00",
+   "Codigo de barras": "9788411016964",
    "Precio": 21.95,
    "En inventario": 1
  },
  {
    "Título": "Blue Lock 12 ",
+   "Imagen": "img/imagen 28.svg",
    "Editorial": "Planeta Comic",
-   "Codigo de barras": "9788411402491.00",
-   "Precio": 11.95,
-   "En inventario": 2
- },
- {
-   "Título": "Blue Period 01 ",
-   "Editorial": "Edición en Japonés",
-   "Codigo de barras": "9784065105863.00",
-   "Precio": 11.95,
-   "En inventario": 1
- },
- {
-   "Título": "Blue Period 02 ",
-   "Editorial": "Edición en Japonés",
-   "Codigo de barras": "9784065111246.00",
+   "Codigo de barras": "9788411402491",
    "Precio": 11.95,
    "En inventario": 2
  },
  {
    "Título": "Boruto, Naruto Next Generation 09 ",
+   "Imagen": "img/imagen 29.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075687858.00",
+   "Codigo de barras": "9786075687858",
    "Precio": 10.5,
    "En inventario": 2
  },
  {
-   "Título": "Boruto, Naruto Next Generation 10 ",
+   "Título": "Boruto, Naruto Next Generation 10",
+    "Imagen": "img/imagen 30.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075688640.00",
+   "Codigo de barras": "9786075688640",
    "Precio": 10.5,
    "En inventario": 1
  },
  {
-   "Título": "Calendario My Hero Academia ",
-   "Editorial": "Panini Manga",
-   "Codigo de barras": "7503046185326.00",
-   "Precio": 17.95,
-   "En inventario": 2
- },
- {
-   "Título": "Calendario Sakamoto Days ",
-   "Editorial": "Panini Manga",
-   "Codigo de barras": "7503046185340.00",
-   "Precio": 17.95,
-   "En inventario": 3
- },
- {
-   "Título": "Calendario Spy x Family ",
-   "Editorial": "Panini Manga",
-   "Codigo de barras": "7503046185333.00",
-   "Precio": 17.95,
-   "En inventario": 2
- },
- {
    "Título": "Chainsaw Man 04 ",
+   "Imagen": "img/imagen 31.svg",
    "Editorial": "Norma Editorial",
-   "Codigo de barras": "9788467944174.00",
+   "Codigo de barras": "9788467944174",
    "Precio": 11.95,
    "En inventario": 2
  },
  {
    "Título": "Chainsaw Man 13 ",
+   "Imagen": "img/imagen 32.svg",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075780924.00",
+   "Codigo de barras": "9786075780924",
    "Precio": 11.95,
    "En inventario": 1
  },
  {
    "Título": "Chainsaw Man 15 ",
+   "Imagen": "img/imagen 33.svg",
    "Editorial": "Norma Editorial",
-   "Codigo de barras": "9788467965346.00",
+   "Codigo de barras": "9788467965346",
    "Precio": 11.95,
    "En inventario": 2
  },
  {
    "Título": "Children of the Whales 04 ",
+   "Imagen": "img/imagen 34.svg",
    "Editorial": "Milky Way Ediciones",
-   "Codigo de barras": "9788417373146.00",
+   "Codigo de barras": "9788417373146",
    "Precio": 12.95,
    "En inventario": 1
  },
  {
    "Título": "Children of the Whales 22 ",
+   "Imagen": "img/imagen 35.svg",
    "Editorial": "Milky Way Ediciones",
-   "Codigo de barras": "9788419914125.00",
+   "Codigo de barras": "9788419914125",
    "Precio": 12.5,
    "En inventario": 1
  },
  {
    "Título": "Claymore 03 ",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786076347027.00",
+   "Codigo de barras": "9786076347027",
    "Precio": 10.5,
    "En inventario": 1
  },
  {
    "Título": "Claymore 04 ",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786076347218.00",
+   "Codigo de barras": "9786076347218",
    "Precio": 10.5,
    "En inventario": 2
  },
  {
    "Título": "Claymore 06 ",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786076347812.00",
+   "Codigo de barras": "9786076347812",
    "Precio": 10.5,
    "En inventario": 1
  },
  {
    "Título": "Claymore 07 ",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786076347829.00",
+   "Codigo de barras": "9786076347829",
    "Precio": 10.5,
    "En inventario": 1
  },
  {
    "Título": "Claymore 08 ",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786076348420.00",
+   "Codigo de barras": "9786076348420",
    "Precio": 10.5,
    "En inventario": 1
  },
  {
    "Título": "Claymore 09 ",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786076348437.00",
+   "Codigo de barras": "9786076348437",
    "Precio": 10.5,
    "En inventario": 3
  },
  {
    "Título": "Claymore 10 ",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786075684390.00",
+   "Codigo de barras": "9786075684390",
    "Precio": 10.5,
    "En inventario": 1
  },
  {
    "Título": "Claymore 21 ",
    "Editorial": "Panini Manga",
-   "Codigo de barras": "9786076363478.00",
+   "Codigo de barras": "9786076363478",
    "Precio": 10.5,
    "En inventario": 1
  },
  {
    "Título": "Darling in the Franxx 05 ",
    "Editorial": "Ivréa España",
-   "Codigo de barras": "9788418963995.00",
+   "Codigo de barras": "9788418963995",
    "Precio": 11.95,
    "En inventario": 1
  },
  {
    "Título": "Death Note 03 ",
    "Editorial": "Norma Editorial",
-   "Codigo de barras": "9788467917260.00",
+   "Codigo de barras": "9788467917260",
    "Precio": 11.95,
    "En inventario": 2
  },
  {
    "Título": "Death Note 05 ",
    "Editorial": "Norma Editorial",
-   "Codigo de barras": "9788467917284.00",
+   "Codigo de barras": "9788467917284",
    "Precio": 11.95,
    "En inventario": 1
  },
@@ -499,14 +491,14 @@
    "En inventario": 2
  },
  {
-   "Título": "El Gran Maestro de la Cultivación, E. E. ",
+   "Título": "El Gran Maestro de la Cultivación 01, E. Especial",
    "Editorial": "Norma Editorial ",
    "Codigo de barras": "9788467966725.00",
    "Precio": 28.95,
    "En inventario": 1
  },
  {
-   "Título": "El Gran Maestro de la Cultivación, T. R. ",
+   "Título": "El Gran Maestro de la Cultivación 01",
    "Editorial": "Norma Editorial",
    "Codigo de barras": "9788467966718.00",
    "Precio": 19.95,
@@ -521,7 +513,7 @@
  },
  {
    "Título": "El Misterio Phohibido de Ron Kamonohashi ",
-   "Editorial": "Panini Manga Es",
+   "Editorial": "Panini Manga España",
    "Codigo de barras": "9788411014120.00",
    "Precio": 11.95,
    "En inventario": 1
@@ -552,13 +544,6 @@
    "Editorial": "Milky Way EWdiciones",
    "Codigo de barras": "9788419536617.00",
    "Precio": 12.95,
-   "En inventario": 1
- },
- {
-   "Título": "El Perfume del Rey",
-   "Editorial": "Croosboks Editorial",
-   "Codigo de barras": "9788408275961.00",
-   "Precio": 24.95,
    "En inventario": 1
  },
  {
@@ -814,7 +799,7 @@
    "En inventario": 1
  },
  {
-   "Título": "Hyperventilation ",
+   "Título": "Hyperventilation",
    "Editorial": "Norma Editorial",
    "Codigo de barras": "9788467961690.00",
    "Precio": 17.95,
@@ -840,13 +825,6 @@
    "Codigo de barras": "9788418043796.00",
    "Precio": 12.95,
    "En inventario": 3
- },
- {
-   "Título": "Inoue Takehiko, Illustration ",
-   "Editorial": "Edición en Japonés",
-   "Codigo de barras": "9784087824087.00",
-   "Precio": 39.95,
-   "En inventario": 1
  },
  {
    "Título": "Jagaaan 11 ",
@@ -1709,13 +1687,7 @@
    "Precio": 19.95,
    "En inventario": 1
  },
- {
-   "Título": "Vinland Saga 27",
-   "Editorial": "Kurokawa (Edición Francesa)",
-   "Codigo de barras": "9782380714333.00",
-   "Precio": 29.95,
-   "En inventario": 1
- },
+ 
  {
    "Título": "Wotakoi 10",
    "Editorial": "Panini Manga",
